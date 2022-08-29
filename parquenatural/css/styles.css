@@ -1,0 +1,83 @@
+.ini-section {
+    border: 1px solid lightgrey;
+    padding: 25px;
+}
+
+h1 {
+    color: olivedrab;
+}
+
+.orange-text {
+    color: rgb(196, 134, 19);
+}
+
+h2 {
+    color: rgb(49, 175, 49);
+    border-bottom: 1px solid lightgrey;
+}
+
+h4 {
+    color: rgb(196, 134, 19);
+}
+
+.left-side {
+    float: left;
+    padding: 35px;
+    margin-top: 50px;
+}
+
+.right-side {
+    float: left;
+    width: 900px;
+}
+
+body {
+    margin: 0 auto  ;
+}
+
+.button,
+.inicio-button {
+    text-align: center;
+    padding: 7px 15px;
+    margin: 5px 0;
+    list-style-type: none;
+    border: 1px solid lightgrey;
+    cursor: pointer;
+}
+
+.inicio-button {
+    background-color: blanchedalmond;
+}
+
+.button {
+    background-color: rgb(94, 223, 94);
+}
+
+.button:hover {
+    background-color: rgb(73, 184, 73);
+}
+
+.inicio-button:hover {
+    background-color: rgb(233, 213, 184);
+}
+
+.button a,
+.inicio-button a {
+    text-decoration: none;
+    color: black;
+}
+
+.image-top {
+    width: 1200px;
+    height: 250px;
+    object-fit: cover;
+    background: url('../imagenes/image1.jpg');
+    background-size: cover;
+    border-radius: 15px;
+}
+
+.image-top-2 {
+    background-image: radial-gradient(circle, rgba(255,255,255,0) 75%, rgba(255,255,255,1) 100%);
+    width: 1200px;
+    height: 250px;
+}
