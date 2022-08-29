@@ -1,6 +1,7 @@
 .ini-section {
     border: 1px solid lightgrey;
     padding: 25px;
+    background: linear-gradient(0deg, rgba(228,228,228,1) 0%, rgba(255,255,255,1) 15%, rgba(255,255,255,1) 85%, rgba(228,228,228,1) 100%);
 }
 
 h1 {
@@ -46,19 +47,19 @@ body {
 }
 
 .inicio-button {
-    background-color: blanchedalmond;
+    background: linear-gradient(0deg, rgba(255,235,205,1) 0%, rgba(255,255,255,1) 50%);
 }
 
 .button {
-    background-color: rgb(94, 223, 94);
+    background: linear-gradient(0deg, rgba(94,223,94,1) 0%, rgba(255,255,255,1) 50%);
 }
 
 .button:hover {
-    background-color: rgb(73, 184, 73);
+    background: linear-gradient(0deg, rgba(94,223,94,1) 0%, rgba(255,255,255,1) 80%);
 }
 
 .inicio-button:hover {
-    background-color: rgb(233, 213, 184);
+    background: linear-gradient(0deg, rgba(255,235,205,1) 0%, rgba(255,255,255,1) 80%);
 }
 
 .button a,
@@ -68,7 +69,7 @@ body {
 }
 
 .image-top {
-    width: 1200px;
+    width: 1100px;
     height: 250px;
     object-fit: cover;
     background: url('../imagenes/image1.jpg');
@@ -78,6 +79,6 @@ body {
 
 .image-top-2 {
     background-image: radial-gradient(circle, rgba(255,255,255,0) 75%, rgba(255,255,255,1) 100%);
-    width: 1200px;
+    width: 1100px;
     height: 250px;
 }
